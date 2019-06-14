@@ -159,7 +159,7 @@ public class Hospital extends FragmentActivity implements OnMapReadyCallback {
 
     public void onLocationChanged(Location location) {
         // New location has now been determined
-        String msg = "Updated Location: " +
+        String msg = "Cambio ubicacion: " +
                 Double.toString(location.getLatitude()) + "," +
                 Double.toString(location.getLongitude());
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
