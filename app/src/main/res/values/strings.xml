@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Medicon</string>
+    <string name="text_lbltitle">Medicon</string>
+    <string name="hint_txttuser">Ingresar correo</string>
+    <string name="hint_txtpass">Contraseña</string>
+    <string name="text_btnlogin">Ingresar</string>
+    <string name="text_lblregistrar">Registrar</string>
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="text_txttitleregistrar">Registro</string>
+    <string name="hint_txtfullname">Nombre Completo</string>
+    <string name="hint_txtemail">E-mail</string>
+    <string name="hint_txtcontraseña">Contraseña</string>
+    <string name="homt_txtconfpass">Confirmar Contraseña</string>
+    <string name="text_btnregistrar">Registrar</string>
+    <string name="title_activity_hospital">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
