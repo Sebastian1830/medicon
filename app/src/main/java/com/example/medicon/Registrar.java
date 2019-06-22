@@ -88,7 +88,7 @@ public class Registrar extends AppCompatActivity {
                             updateUI();
                             //updateUserInfo(username,mAuth.getCurrentUser());
                         }else {
-                            showMessage("Error al Registrar Usuario" + task.getException().getMessage());
+                            showMessage("Error al Registrar el Usuario" + task.getException().getMessage());
                         }
                     }
                 });
