@@ -23,7 +23,6 @@ public class Home extends AppCompatActivity {
 
         btnConsultar = (CircularImageView) findViewById(R.id.btnConsultar);
         btnHospital = (CircularImageView) findViewById(R.id.btnHospital);
-        btnFarmacia = (CircularImageView) findViewById(R.id.btnFarmacia);
 
         btnConsultar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,14 +37,6 @@ public class Home extends AppCompatActivity {
             public void onClick(View v) {
                 Intent h = new Intent(getApplicationContext(),Hospital.class);
                 startActivity(h);
-            }
-        });
-
-        btnFarmacia.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent f = new Intent(getApplicationContext(),Farmacia.class);
-                startActivity(f);
             }
         });
     }

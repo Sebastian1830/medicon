@@ -10,14 +10,16 @@
         android:id="@+id/btnConsultar"
         android:layout_width="125dp"
         android:layout_height="125dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
         android:src="@drawable/doctor"
         app:civ_border_color="#2D527C"
         app:civ_border_width="5dp"
         app:civ_shadow="false"
         app:civ_shadow_color="#8BC34A"
         app:civ_shadow_radius="10"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,29 +27,20 @@
         android:id="@+id/btnHospital"
         android:layout_width="125dp"
         android:layout_height="125dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
         android:src="@drawable/hospital"
         app:civ_border_color="#2D527C"
         app:civ_border_width="5dp"
         app:civ_shadow="false"
         app:civ_shadow_color="#8BC34A"
         app:civ_shadow_radius="10"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <com.mikhaellopez.circularimageview.CircularImageView
-        android:id="@+id/btnFarmacia"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="352dp"
-        android:src="@drawable/pharmacy"
-        app:civ_border_color="#2D527C"
-        app:civ_border_width="5dp"
-        app:civ_shadow="false"
-        app:civ_shadow_color="#8BC34A"
-        app:civ_shadow_radius="10"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultar"
+        app:layout_constraintVertical_bias="0.272" />
+
 </android.support.constraint.ConstraintLayout>
