@@ -77,7 +77,7 @@ public class Hospital extends FragmentActivity implements OnMapReadyCallback {
         mLocationRequest.setInterval(UPDATE_INTERVAL);
         mLocationRequest.setFastestInterval(FASTEST_INTERVAL);
 
-        // Create LocationSettingsRequest object using location request
+        // Create LocationSettingsRequest object using location requests
         LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder();
         builder.addLocationRequest(mLocationRequest);
         LocationSettingsRequest locationSettingsRequest = builder.build();
