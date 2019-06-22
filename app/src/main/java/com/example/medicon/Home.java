@@ -40,5 +40,13 @@ public class Home extends AppCompatActivity {
                 startActivity(h);
             }
         });
+
+        btnFarmacia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent f = new Intent(getApplicationContext(),Farmacia.class);
+                startActivity(f);
+            }
+        });
     }
 }
