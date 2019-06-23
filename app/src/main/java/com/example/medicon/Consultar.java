@@ -50,7 +50,7 @@ public class Consultar extends AppCompatActivity {
 
         String workspaceId = "6b9bb3eb-82ed-43c7-9371-10f243e2843e";
         String urlAssistant = "https://gateway.watsonplatform.net/assistant/api/v1/workspaces/"+workspaceId+"/message?version=2019-02-28";
-        String authentication = "YXBpa2V5Oi1IVkhGY0ZRa1RJRE93cTRrRjg5cjBBRjYxQTcyMV9BNHdrUldPdVFYTmVJ";
+        String authentication = "YXBpa2V5Oi1IVkhGY0ZRa1RJRE93cTRrRjg5cjBBRjYxQTcyMV9BNHdrUldPdVFYTmU=";
 
         //creo la estructura json de input del usuario
         JSONObject inputJsonObject = new JSONObject();
