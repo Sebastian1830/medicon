@@ -21,8 +21,8 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        btnConsultar = (CircularImageView) findViewById(R.id.btnConsultar);
-        btnHospital = (CircularImageView) findViewById(R.id.btnHospital);
+        btnConsultar =  findViewById(R.id.btnConsultar);
+        btnHospital =  findViewById(R.id.btnHospital);
 
         btnConsultar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +35,7 @@ public class Home extends AppCompatActivity {
         btnHospital.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent h = new Intent(getApplicationContext(),Hospital.class);
+                Intent h = new Intent(getApplicationContext(),ListaActivity.class);
                 startActivity(h);
             }
         });

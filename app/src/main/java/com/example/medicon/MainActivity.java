@@ -1,8 +1,6 @@
 package com.example.medicon;
 
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.SQLException;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -51,14 +49,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                final String email = txtusu.getText().toString();
+               /* final String email = txtusu.getText().toString();
                 final String password = txtpass.getText().toString();
 
                 if( email.isEmpty() || password.isEmpty()){
                     showMessage("Porfavor verifica el Usuario y/o Contraseña");
                 }else{
                     singIn(email,password);
-                }
+                }*/
+               updateUi();
 
             }
         });
